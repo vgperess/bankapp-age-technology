@@ -1,0 +1,20 @@
+// settings.gradle
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // You might have other repositories like for Compose Multiplatform:
+        // maven { url 'https://maven.pkg.jetbrains.space/public/p/compose/dev' }
+    }
+}
+rootProject.name = "YourProjectName"
+include ':app'
