@@ -28,7 +28,6 @@ fun LoginScreen(navController: NavController, viewModel: LoginViewModel = viewMo
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        // Logo (substitua por sua imagem se necessário)
         Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "Logo",

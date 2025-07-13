@@ -79,7 +79,6 @@ fun PaymentsScreen(navController: NavController, viewModel: PaymentsViewModel = 
                 Text(uiState.error!!, color = MaterialTheme.colorScheme.error)
             }
             else -> {
-                // Exibe 3 contas de luz: maio, junho e julho do ano atual
                 val ano = Calendar.getInstance().get(Calendar.YEAR)
                 val meses = listOf("05", "06", "07")
                 val pagamentos = listOf(

@@ -8,9 +8,7 @@
         <item name="colorOnSecondary">@color/aoe_on_secondary</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/aoe_primary_variant</item>
     </style>
-        <!-- Base application theme. -->
         <style name="Base.Theme.BankApp" parent="Theme.Material3.DayNight.NoActionBar">
-            <!-- Primary brand color. -->
             <item name="colorPrimary">@color/md_theme_light_primary</item>
             <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
             <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -36,26 +34,17 @@
             <item name="colorOutline">@color/md_theme_light_outline</item>
             <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
             <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
-            <!-- Customize your theme here. -->
         </style>
 
 
-        <!-- <style name="Theme.BankApp" parent="Base.Theme.BankApp" /> -->
 
 
-        <!-- <style name="Theme.BankApp" parent="Base.Theme.BankApp" /> -->
 
 
-        <!-- <style name="Theme.BankApp" parent="Base.Theme.BankApp" /> -->
 
-    <!-- Base application theme. -->
-    <!-- <style name="Base.Theme.BankApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!- Light Theme Attributes -->
         
 
-    <!-- <style name="Theme.BankApp" parent="Base.Theme.BankApp" /> -->
 
-    <!-- Base application theme for dark theme. -->
-    <!-- <style name="Base.Theme.BankApp" parent="Theme.Material3.Dark.NoActionBar">
         <!- Dark Theme Attributes -->
         </resources>
